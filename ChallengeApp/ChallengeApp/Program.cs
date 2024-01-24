@@ -2,7 +2,7 @@
 var age = 20;
 var sex = "kobieta";
 
-if (sex == "kobieta" && age > 30)
+if (sex == "kobieta" && age < 30)
 {
     Console.WriteLine("Kobieta poniej 30 lat");
 }
@@ -16,7 +16,5 @@ else if (sex == "mężczyzna" && age < 18)
 }
 else
 {
-
+    Console.WriteLine("Inna osoba");
 }
-
-
